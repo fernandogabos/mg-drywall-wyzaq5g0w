@@ -27,8 +27,8 @@ export default function Portfolio() {
               onClick={() => setActiveFilter(category)}
               className={`rounded-none px-6 tracking-widest uppercase text-xs transition-all ${
                 activeFilter === category
-                  ? 'bg-primary text-primary-foreground border-primary'
-                  : 'text-muted-foreground border-border hover:text-primary hover:border-primary'
+                  ? 'bg-gold text-white border-gold hover:bg-gold/90'
+                  : 'text-muted-foreground border-border hover:text-foreground hover:border-foreground'
               }`}
             >
               {category}

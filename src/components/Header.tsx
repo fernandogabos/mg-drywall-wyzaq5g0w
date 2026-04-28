@@ -31,14 +31,19 @@ export function Header() {
 
   const isHome = location.pathname === '/'
   const headerBg =
-    isScrolled || !isHome ? 'bg-background/95 backdrop-blur-md shadow-sm' : 'bg-transparent'
+    isScrolled || !isHome
+      ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-sm'
+      : 'bg-transparent'
   const textColor = isScrolled || !isHome ? 'text-foreground' : 'text-white'
 
   return (
     <header className={cn('fixed top-0 left-0 right-0 z-50 transition-all duration-300', headerBg)}>
       <div className="container mx-auto px-6 h-24 flex items-center justify-between">
-        <Link to="/" className={cn('font-serif text-2xl tracking-wider font-semibold', textColor)}>
-          PREMIUM <span className="text-gold font-light">DRYWALL</span>
+        <Link to="/" className={cn('flex flex-col items-center justify-center', textColor)}>
+          <span className="font-serif text-3xl tracking-[0.2em] leading-none">MG</span>
+          <span className="font-sans text-[0.6rem] tracking-[0.4em] font-light mt-1 text-gold">
+            DRYWALL
+          </span>
         </Link>
 
         {/* Desktop Nav */}

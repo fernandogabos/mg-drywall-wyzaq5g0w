@@ -19,7 +19,7 @@ export function ServicesSection() {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-background p-10 group hover:shadow-xl transition-all duration-500 border border-border"
+              className="bg-background p-10 group hover:border-gold/50 transition-all duration-500 border border-border hover:shadow-2xl hover:shadow-gold/5"
             >
               <div className="text-gold mb-8 transform group-hover:-translate-y-2 transition-transform duration-500">
                 {iconMap[service.icon]}

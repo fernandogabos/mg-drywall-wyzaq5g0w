@@ -8,7 +8,7 @@ export function PhilosophySection() {
             que sustentam o design."
           </h2>
           <p className="text-muted-foreground text-lg font-light leading-loose max-w-2xl mx-auto">
-            Fundada em Jundiaí, a Premium Drywall eleva o padrão de montagem e instalação a um novo
+            Fundada em Jundiaí, a MG Drywall eleva o padrão de montagem e instalação a um novo
             patamar. Nosso compromisso é entregar integridade arquitetônica, alinhando tecnologia de
             materiais com uma execução artesanal meticulosa.
           </p>

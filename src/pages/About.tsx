@@ -20,10 +20,10 @@ export default function About() {
                 Consolidando o Luxo na Construção a Seco
               </h3>
               <p className="text-muted-foreground text-lg font-light leading-relaxed mb-6">
-                Estabelecida no coração de Jundiaí, a Premium Drywall nasceu da percepção de uma
-                lacuna no mercado regional: a necessidade de um serviço de montagem em drywall que
-                tratasse a estrutura com o mesmo respeito e detalhismo que os arquitetos aplicam em
-                seus projetos conceituais.
+                Estabelecida no coração de Jundiaí, a MG Drywall nasceu da percepção de uma lacuna
+                no mercado regional: a necessidade de um serviço de montagem em drywall que tratasse
+                a estrutura com o mesmo respeito e detalhismo que os arquitetos aplicam em seus
+                projetos conceituais.
               </p>
               <p className="text-muted-foreground text-lg font-light leading-relaxed mb-8">
                 Hoje, somos parceiros dos principais escritórios de arquitetura e construtoras de

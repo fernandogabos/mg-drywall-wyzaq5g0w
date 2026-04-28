@@ -6,11 +6,11 @@ export function HeroSection() {
     <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://img.usecurling.com/p/1600/900?q=luxury%20living%20room%20drywall%20ceiling"
-          alt="Premium Drywall Interior"
+          src="https://img.usecurling.com/p/1600/900?q=dark%20luxury%20interior%20drywall%20lighting"
+          alt="MG Drywall Interior"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-primary/60 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-black/70 mix-blend-multiply" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6 text-center pt-24">

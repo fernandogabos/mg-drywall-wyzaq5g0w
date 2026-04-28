@@ -84,7 +84,7 @@ export default function Contact() {
                 <Mail className="text-gold mt-1" size={24} />
                 <div>
                   <h4 className="font-serif text-xl text-primary mb-1">E-mail</h4>
-                  <p className="text-muted-foreground text-sm">contato@premiumdrywall.com.br</p>
+                  <p className="text-muted-foreground text-sm">contato@mgdrywall.com.br</p>
                 </div>
               </div>
             </div>
