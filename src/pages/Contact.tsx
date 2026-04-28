@@ -67,21 +67,21 @@ export default function Contact() {
 
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <MapPin className="text-gold mt-1" size={24} />
+                <MapPin className="text-foreground mt-1" size={24} />
                 <div>
                   <h4 className="font-serif text-xl text-primary mb-1">Localização</h4>
                   <p className="text-muted-foreground text-sm">Av. Nove de Julho, Jundiaí - SP</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Phone className="text-gold mt-1" size={24} />
+                <Phone className="text-foreground mt-1" size={24} />
                 <div>
                   <h4 className="font-serif text-xl text-primary mb-1">Telefone / WhatsApp</h4>
                   <p className="text-muted-foreground text-sm">+55 (11) 99999-9999</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Mail className="text-gold mt-1" size={24} />
+                <Mail className="text-foreground mt-1" size={24} />
                 <div>
                   <h4 className="font-serif text-xl text-primary mb-1">E-mail</h4>
                   <p className="text-muted-foreground text-sm">contato@mgdrywall.com.br</p>
@@ -103,7 +103,7 @@ export default function Contact() {
                       </FormLabel>
                       <FormControl>
                         <Input
-                          className="bg-background border-border rounded-none h-12 focus-visible:ring-gold"
+                          className="bg-background border-border rounded-none h-12 focus-visible:ring-ring"
                           {...field}
                         />
                       </FormControl>
@@ -123,7 +123,7 @@ export default function Contact() {
                         <FormControl>
                           <Input
                             type="email"
-                            className="bg-background border-border rounded-none h-12 focus-visible:ring-gold"
+                            className="bg-background border-border rounded-none h-12 focus-visible:ring-ring"
                             {...field}
                           />
                         </FormControl>
@@ -141,7 +141,7 @@ export default function Contact() {
                         </FormLabel>
                         <FormControl>
                           <Input
-                            className="bg-background border-border rounded-none h-12 focus-visible:ring-gold"
+                            className="bg-background border-border rounded-none h-12 focus-visible:ring-ring"
                             {...field}
                           />
                         </FormControl>
@@ -160,7 +160,7 @@ export default function Contact() {
                       </FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
-                          <SelectTrigger className="bg-background border-border rounded-none h-12 focus-visible:ring-gold">
+                          <SelectTrigger className="bg-background border-border rounded-none h-12 focus-visible:ring-ring">
                             <SelectValue placeholder="Selecione..." />
                           </SelectTrigger>
                         </FormControl>
@@ -185,7 +185,7 @@ export default function Contact() {
                       </FormLabel>
                       <FormControl>
                         <Textarea
-                          className="bg-background border-border rounded-none min-h-[120px] focus-visible:ring-gold resize-none"
+                          className="bg-background border-border rounded-none min-h-[120px] focus-visible:ring-ring resize-none"
                           {...field}
                         />
                       </FormControl>

@@ -41,9 +41,7 @@ export function Header() {
       <div className="container mx-auto px-6 h-24 flex items-center justify-between">
         <Link to="/" className={cn('flex flex-col items-center justify-center', textColor)}>
           <span className="font-serif text-3xl tracking-[0.2em] leading-none">MG</span>
-          <span className="font-sans text-[0.6rem] tracking-[0.4em] font-light mt-1 text-gold">
-            DRYWALL
-          </span>
+          <span className="font-sans text-[0.6rem] tracking-[0.4em] font-light mt-1">DRYWALL</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -53,9 +51,9 @@ export function Header() {
               key={link.path}
               to={link.path}
               className={cn(
-                'text-sm uppercase tracking-widest hover:text-gold transition-colors',
+                'text-sm uppercase tracking-widest hover:opacity-70',
                 textColor,
-                location.pathname === link.path && 'text-gold font-medium',
+                location.pathname === link.path && 'font-medium',
               )}
             >
               {link.name}
@@ -65,7 +63,7 @@ export function Header() {
             asChild
             variant="outline"
             className={cn(
-              'border-current hover:bg-gold hover:text-white hover:border-gold transition-colors',
+              'border-current hover:bg-foreground hover:text-background hover:border-foreground',
               textColor,
             )}
           >
@@ -91,7 +89,7 @@ export function Header() {
                   <Link
                     key={link.path}
                     to={link.path}
-                    className="font-serif text-4xl text-foreground hover:text-gold transition-colors animate-slide-up"
+                    className="font-serif text-4xl text-foreground hover:opacity-70 animate-slide-up"
                     style={{ animationDelay: `${i * 100}ms` }}
                   >
                     {link.name}
@@ -100,7 +98,7 @@ export function Header() {
                 <div className="pt-8 border-t animate-slide-up" style={{ animationDelay: '400ms' }}>
                   <Button
                     asChild
-                    className="w-full bg-gold hover:bg-gold/90 text-white rounded-none h-14 text-lg"
+                    className="w-full bg-foreground hover:bg-foreground/90 text-background rounded-none h-14 text-lg"
                   >
                     <Link to="/contato">Solicitar Orçamento</Link>
                   </Button>
