@@ -7,10 +7,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 lg:gap-20">
           <div className="md:col-span-2">
             <div className="mb-6">
-              <span className="font-serif text-4xl tracking-[0.2em] leading-none block">MG</span>
-              <span className="font-sans text-[0.7rem] tracking-[0.4em] font-light mt-1 block">
-                DRYWALL
-              </span>
+              <img
+                src="/MG Drywall_Logo_Baixa_Negativo.png"
+                alt="MG Drywall"
+                className="h-[50px] w-auto"
+              />
             </div>
             <p className="text-muted-foreground text-sm max-w-sm leading-relaxed">
               Elevando o padrão da construção civil em Jundiaí através de precisão técnica,
