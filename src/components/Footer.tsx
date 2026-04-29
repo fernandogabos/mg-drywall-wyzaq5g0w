@@ -52,29 +52,33 @@ export function Footer() {
               <li className="text-sm text-muted-foreground">+55 (11) 99999-9999</li>
               <li className="text-sm text-muted-foreground">contato@mgdrywall.com.br</li>
             </ul>
-            <div className="mt-8 flex space-x-4">
-              <a
-                href="https://www.instagram.com/mgdrywall_jundiai/"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:opacity-70 text-sm uppercase tracking-widest"
-              >
-                Instagram
-              </a>
-              <a href="#" className="hover:opacity-70 text-sm uppercase tracking-widest">
-                LinkedIn
-              </a>
-            </div>
           </div>
         </div>
 
-        <div className="border-t border-border mt-20 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} MG Drywall Jundiaí. Todos os direitos reservados.
-          </p>
+        <div className="border-t border-border mt-20 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-4">
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+            <p className="text-xs text-muted-foreground text-center md:text-left">
+              &copy; {new Date().getFullYear()} MG Drywall Jundiaí. Todos os direitos reservados.
+            </p>
+            <div className="flex items-center gap-2 text-xs text-muted-foreground">
+              <span>Desenvolvido por:</span>
+              <a
+                href="https://www.innovagrupo.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity flex items-center"
+              >
+                <img
+                  src="/INNOVA_Logo_Branco_Transparente.png"
+                  alt="INNOVA"
+                  className="h-[30px] w-auto"
+                />
+              </a>
+            </div>
+          </div>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="text-xs uppercase tracking-widest hover:opacity-70 mt-4 md:mt-0"
+            className="text-xs uppercase tracking-widest hover:opacity-70"
           >
             Voltar ao Topo
           </button>
